@@ -1,25 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import "bootstrap/dist/css/bootstrap.min.css";
+import TableCrypto from "./components/TableCrypto";
+import Home from "./components/Home";
+import AddTransaction from "./components/AddTransaction";
+import {Routes, Route} from "react-router-dom";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+      <Routes>
+        <Route path='/' element={<Home></Home>}></Route>
+        <Route path='tablecrypto' element={<TableCrypto></TableCrypto>}></Route>
+        <Route path='addtransaction' element={<AddTransaction></AddTransaction>}></Route>
+      </Routes>
+      </div>
+  )
 }
 
-export default App;
+export default App
+

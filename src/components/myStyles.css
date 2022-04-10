@@ -1,0 +1,211 @@
+.primary{
+    color: orange;;
+}
+
+.space{
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+}
+
+.container {
+    margin: 0 auto;
+    margin-top: 25px;
+  }
+
+.form{
+    border: 1px solid black;
+    top: 0;
+}
+
+.heading{
+    vertical-align: top;
+}
+
+.transactionHeading{
+    font-size: medium;
+    text-align: left;
+    margin-left: 18px;
+    margin-top: 40px;
+}
+
+.fieldRow{
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 25px;
+}
+
+.background{
+    background-image: url("./images/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 1000px;
+}
+
+.homeButton{
+    margin-top: 100px;
+    height: 100px;
+    width: 500px;
+    font-size: larger;
+ 
+}
+
+.carousel{
+    margin-top: 100px;
+}
+
+.slides{
+    height: 400px;
+    width: 1000px;
+}
+
+table {
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  table td,
+  table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  table tr:hover {
+    background-color: #ddd;
+  }
+  
+  table th, tfoot td {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #4caf50;
+    color: white;
+  }
+
+  .searchBar{
+      margin: 50px;
+      margin-left: 250px;
+      position: relative;
+      display: flex;
+      max-width: 1300px;
+      align-items: center;
+      justify-content: center;
+      border-collapse: collapse;
+      width: 70%;
+    
+  }
+
+  .popup{
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 80vh;
+      background-color: rgba(211, 44, 44, 0.2);
+
+      display:flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .popup-inner{
+      position: relative;
+      padding: 32px;
+      width: 100%;
+      max-width: 640px;
+      background-color: #fff;
+
+  }
+
+  .close-btn{
+      position: absolute;
+      top: 16px;
+      right: 16px;
+  }
+
+  .addTransButton{
+      margin-top: 40px;
+  }
+
+  .loader {
+    position: relative;
+    margin-top: 80px;
+  }
+  
+  .outer,
+  .middle,
+  .inner {
+    border: 3px solid transparent;
+    border-top-color: #fc2f70;
+    border-right-color: #fc2f70;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+  
+  .outer {
+    width: 3.5em;
+    height: 3.5em;
+    margin-left: -1.75em;
+    margin-top: -1.75em;
+    animation: spin 2s linear infinite;
+  }
+  
+  .middle {
+    width: 2.1em;
+    height: 2.1em;
+    margin-left: -1.05em;
+    margin-top: -1.05em;
+    animation: spin 1.75s linear reverse infinite;
+  }
+  
+  .inner {
+    width: 0.8em;
+    height: 0.8em;
+    margin-left: -0.4em;
+    margin-top: -0.4em;
+    animation: spin 1.5s linear infinite;
+  }
+  
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .errorMsg {
+    max-width: 350px;
+    color: #f21e08;
+    padding: 2px 0;
+    margin-top: 2px;
+    font-size: 14px;
+    font-weight: 300;
+  }
+  
+
+  .form-control {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  .form-control label {
+    text-align: left;
+    margin-bottom: 5px;
+  }
+  
+  .form-control input[type='text'],
+  .form-control input[type='password'] {
+    width: 40%;
+    padding: 5px;
+  }
+
+  .searchLabel{
+    margin: 0 auto;
+  }
