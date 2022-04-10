@@ -1,4 +1,4 @@
-These are the snippets of the project
+These are the snippets of the project (Also can be seen in public folder)
 
 <p float="left">
     <img src="public\Screen 1.JPG" width="260"/>
