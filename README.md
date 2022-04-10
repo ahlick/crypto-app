@@ -1,16 +1,15 @@
 These are the snippets of the project
 
 <p float="left">
-    <img src="public\Screen 1.JPG" width="265"/>
-    <img src="public\Screen 2.JPG" width="265"/>
-    <img src="public\Screen 3.JPG" width="265"/>
-
+    <img src="public\Screen 1.JPG" width="260"/>
+    <img src="public\Screen 2.JPG" width="260"/>
+    <img src="public\Screen 3.JPG" width="260"/>
 </p>
 
 Before running the project, run the api server first. You can run: 
 
 ### `cd api`
-### `rpm run server`
+### `npm run server`
 
 Then in the project directory, you can run: 
 
