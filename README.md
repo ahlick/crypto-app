@@ -1,9 +1,9 @@
 These are the snippets of the project (Also can be seen in public folder)
 
 <p float="left">
-    <img src="public\Screen 1.JPG" width="260"/>
-    <img src="public\Screen 2.JPG" width="260"/>
-    <img src="public\Screen 3.JPG" width="260"/>
+    <img src="public\Screen 1.jpg" width="260"/>
+    <img src="public\Screen 2.jpg" width="260"/>
+    <img src="public\Screen 3.jpg" width="260"/>
 </p>
 
 Before running the project, run the api server first. You can run: 
