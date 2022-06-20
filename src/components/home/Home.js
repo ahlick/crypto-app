@@ -1,5 +1,5 @@
 import React from "react";
-import Navibar from "./Navibar";
+import Navibar from "../Navibar";
 import { useNavigate } from "react-router-dom";
 import { Button, Carousel } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";

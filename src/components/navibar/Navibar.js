@@ -1,7 +1,7 @@
 import React from "react";
 import {Navbar, Nav, Container, Offcanvas} from 'react-bootstrap'
 import "bootstrap/dist/css/bootstrap.min.css";
-import './myStyles.css'
+
 
 function Navibar() {
   return (
@@ -22,8 +22,7 @@ function Navibar() {
             </Offcanvas.Header>
             <Offcanvas.Body>
               <Nav className="justify-content-end flex-grow-1 pe-3">
-                <Nav.Link href='/'>Home</Nav.Link>
-                <Nav.Link href='/tablecrypto'>Crypto Table</Nav.Link>
+                <Nav.Link href='/'>Crypto Table</Nav.Link>
                 <Nav.Link href='/addtransaction'>Add a Transaction</Nav.Link>
               </Nav>
             </Offcanvas.Body>

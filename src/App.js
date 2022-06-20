@@ -1,22 +1,25 @@
-import './App.css';
-import React from 'react';
+import "./App.css";
+import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import TableCrypto from "./components/TableCrypto";
-import Home from "./components/Home";
-import AddTransaction from "./components/AddTransaction";
-import {Routes, Route} from "react-router-dom";
+import TableCrypto from "./components/tableCrypto/TableCrypto";
+import AddTransaction from "./components/addTransaction/AddTransaction";
+import { Routes , Route} from "react-router-dom";
+
+// C:\NotBackedUp\react-project\my-app
+// json-server --watch db.json
 
 const App = () => {
   return (
     <div className="App">
       <Routes>
-        <Route path='/' element={<Home></Home>}></Route>
-        <Route path='tablecrypto' element={<TableCrypto></TableCrypto>}></Route>
-        <Route path='addtransaction' element={<AddTransaction></AddTransaction>}></Route>
+        <Route path='/' element={<TableCrypto/>}></Route>
+        <Route path='addtransaction' element={<AddTransaction/>}></Route>
+
       </Routes>
-      </div>
-  )
+
+    </div>
+  );
 }
 
-export default App
+export default App;
 

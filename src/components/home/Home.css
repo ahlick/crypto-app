@@ -1,0 +1,83 @@
+.space{
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+  }
+  
+  .form{
+    border: 1px solid black;
+    top: 0;
+  }
+  
+  .heading{
+    vertical-align: top;
+  }
+  
+  .transactionHeading{
+    font-size: large;
+    text-align: center;
+    margin-left: 18px;
+    margin-top: 40px;
+  }
+  
+  .fieldRow{
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 25px;
+  }
+  
+  .background{
+    background-image: url("./images/background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 1500px;
+  }
+  
+  .homeButton{
+    margin-top: 100px;
+    height: 100px;
+    width: 500px;
+    font-size: larger;
+  
+  }
+  
+  .carousel{
+    margin-top: 100px;
+  }
+  
+  .slides{
+    height: 400px;
+    width: 1000px;
+  }
+  
+  .form-control {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  .form-control label {
+    text-align: left;
+    margin-bottom: 5px;
+  }
+  
+  .form-control input[type='text'],
+  .form-control input[type='password'] {
+    width: 40%;
+    padding: 5px;
+  }
+  
+  .searchLabel{
+    margin: 0 auto;
+  }
+  
+  .fieldLabel{
+    margin-top: 40px;
+  }
+  
+  .tokenCodeField{
+    width: 1000px;
+  
+  }
+  
